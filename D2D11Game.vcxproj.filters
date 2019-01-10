@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Framework\Core\Window.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Settings.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Context.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\ISubsystem.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\Graphics.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\Timer.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\Input.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\Scene.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\SceneManager.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Resource\Texture.h">
+      <Filter>Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Math\Mesh.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Math\Mesh.inl">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Math\Math.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\GameObject.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Utility\GeometryUtility.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Resource\Model.h">
+      <Filter>Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Resource\IResource.h">
+      <Filter>Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\ResourceManager.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Utility\FileSystem.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Resource\Animation.h">
+      <Filter>Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Utility\Xml.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Resource\Shader.h">
+      <Filter>Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\DirectWriter.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\Audio.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Resource\AudioClip.h">
+      <Filter>Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Resource\Effect.h">
+      <Filter>Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\EffectManager.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Math\BoundBox.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\ColliderManager.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Editor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ImGui\imgui_impl_dx11.h">
+      <Filter>Editor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ImGui\imgui_impl_win32.h">
+      <Filter>Editor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ImGui\ImGuizmo.h">
+      <Filter>Editor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ImGui\Source\imgui_internal.h">
+      <Filter>Editor\ImGui\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ImGui\Source\imstb_rectpack.h">
+      <Filter>Editor\ImGui\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ImGui\Source\imstb_textedit.h">
+      <Filter>Editor\ImGui\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ImGui\Source\imstb_truetype.h">
+      <Filter>Editor\ImGui\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ImGui\Source\imconfig.h">
+      <Filter>Editor\ImGui\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ImGui\Source\imgui.h">
+      <Filter>Editor\ImGui\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Widget\IWidget.h">
+      <Filter>Editor\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Widget\Widget_Menubar.h">
+      <Filter>Editor\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Widget\Widget_Hierarchy.h">
+      <Filter>Editor\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Widget\Widget_Inspector.h">
+      <Filter>Editor\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Widget\Widget_Assets.h">
+      <Filter>Editor\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Widget\Widget_Scene.h">
+      <Filter>Editor\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Widget\Widget_Log.h">
+      <Filter>Editor\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Utility\EditorHelper.h">
+      <Filter>Editor\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Math\Vector2.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Math\Vector3.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Math\Vector4.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Math\Color.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Math\Matrix.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\OMStage\RenderTexture.h">
+      <Filter>Framework\Core\D3D11\OMStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\Backend.h">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\IAStage\VertexBuffer.h">
+      <Filter>Framework\Core\D3D11\IAStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\IAStage\IndexBuffer.h">
+      <Filter>Framework\Core\D3D11\IAStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\ShaderStage\ConstantBuffer.h">
+      <Filter>Framework\Core\D3D11\ShaderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\ShaderStage\PixelShader.h">
+      <Filter>Framework\Core\D3D11\ShaderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\ShaderStage\VertexShader.h">
+      <Filter>Framework\Core\D3D11\ShaderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\ShaderStage\BaseShader.h">
+      <Filter>Framework\Core\D3D11\ShaderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\RSStage\RasterizerState.h">
+      <Filter>Framework\Core\D3D11\RSStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\Vertex.h">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\IAStage\InputLayout.h">
+      <Filter>Framework\Core\D3D11\IAStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\IAStage\PrimitiveTopology.h">
+      <Filter>Framework\Core\D3D11\IAStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\ShaderStage\Sampler.h">
+      <Filter>Framework\Core\D3D11\ShaderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\RSStage\Viewport.h">
+      <Filter>Framework\Core\D3D11\RSStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\Component\Grid.h">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\Component\LineRenderer.h">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\Component\Transform.h">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\Component\Animator.h">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\Component\AudioSource.h">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\Component\Camera.h">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\Component\Collider.h">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\Component\IComponent.h">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\Component\Renderable.h">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Resource\Material.h">
+      <Filter>Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\Pipeline.h">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\Renderer.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Utility\Gizmo.h">
+      <Filter>Editor\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Utility\DragDrop.h">
+      <Filter>Editor\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Utility\IconProvider.h">
+      <Filter>Editor\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Tool\Tool_Script.h">
+      <Filter>Editor\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ImGui\TextEditor.h">
+      <Filter>Editor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\Engine.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\Scripting.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scripting\ScriptInterface.h">
+      <Filter>Framework\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Tool\Tool_Sprite.h">
+      <Filter>Editor\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scripting\ScriptModule.h">
+      <Filter>Framework\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scripting\ScriptInstance.h">
+      <Filter>Framework\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\Component\Script.h">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Widget\Widget_ToolBar.h">
+      <Filter>Editor\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Widget\Widget_Project.h">
+      <Filter>Editor\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ImGui\Source\imgui_stdlib.h">
+      <Filter>Editor\ImGui\Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Framework\Core\Settings.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\Graphics.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\Timer.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\Input.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene\Scene.cpp">
+      <Filter>Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\SceneManager.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Resource\Texture.cpp">
+      <Filter>Framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Math\Math.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene\GameObject.cpp">
+      <Filter>Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Utility\GeometryUtility.cpp">
+      <Filter>Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Resource\Model.cpp">
+      <Filter>Framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\ResourceManager.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Utility\FileSystem.cpp">
+      <Filter>Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Resource\Animation.cpp">
+      <Filter>Framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Utility\Xml.cpp">
+      <Filter>Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Resource\Shader.cpp">
+      <Filter>Framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\DirectWriter.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\Audio.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Resource\AudioClip.cpp">
+      <Filter>Framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Resource\Effect.cpp">
+      <Filter>Framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\EffectManager.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Math\BoundBox.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\ColliderManager.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Editor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ImGui\imgui_impl_win32.cpp">
+      <Filter>Editor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ImGui\ImGuizmo.cpp">
+      <Filter>Editor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ImGui\imgui_impl_dx11.cpp">
+      <Filter>Editor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ImGui\Source\imgui_draw.cpp">
+      <Filter>Editor\ImGui\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ImGui\Source\imgui_widgets.cpp">
+      <Filter>Editor\ImGui\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ImGui\Source\imgui.cpp">
+      <Filter>Editor\ImGui\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ImGui\Source\imgui_demo.cpp">
+      <Filter>Editor\ImGui\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Widget\Widget_Menubar.cpp">
+      <Filter>Editor\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Widget\Widget_Hierarchy.cpp">
+      <Filter>Editor\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Widget\Widget_Inspector.cpp">
+      <Filter>Editor\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Widget\Widget_Assets.cpp">
+      <Filter>Editor\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Widget\Widget_Scene.cpp">
+      <Filter>Editor\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Widget\Widget_Log.cpp">
+      <Filter>Editor\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Utility\EditorHelper.cpp">
+      <Filter>Editor\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Math\Vector2.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Math\Vector3.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Math\Vector4.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Math\Color.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Math\Matrix.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\OMStage\RenderTexture.cpp">
+      <Filter>Framework\Core\D3D11\OMStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\IAStage\VertexBuffer.cpp">
+      <Filter>Framework\Core\D3D11\IAStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\IAStage\IndexBuffer.cpp">
+      <Filter>Framework\Core\D3D11\IAStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\ShaderStage\PixelShader.cpp">
+      <Filter>Framework\Core\D3D11\ShaderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\ShaderStage\VertexShader.cpp">
+      <Filter>Framework\Core\D3D11\ShaderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\ShaderStage\BaseShader.cpp">
+      <Filter>Framework\Core\D3D11\ShaderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\ShaderStage\ConstantBuffer.cpp">
+      <Filter>Framework\Core\D3D11\ShaderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\RSStage\RasterizerState.cpp">
+      <Filter>Framework\Core\D3D11\RSStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\Vertex.cpp">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\IAStage\InputLayout.cpp">
+      <Filter>Framework\Core\D3D11\IAStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\IAStage\PrimitiveTopology.cpp">
+      <Filter>Framework\Core\D3D11\IAStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\ShaderStage\Sampler.cpp">
+      <Filter>Framework\Core\D3D11\ShaderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\RSStage\Viewport.cpp">
+      <Filter>Framework\Core\D3D11\RSStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene\Component\Grid.cpp">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene\Component\LineRenderer.cpp">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene\Component\Transform.cpp">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene\Component\Animator.cpp">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene\Component\AudioSource.cpp">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene\Component\Camera.cpp">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene\Component\Collider.cpp">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene\Component\Renderable.cpp">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Resource\Material.cpp">
+      <Filter>Framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\Pipeline.cpp">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\Renderer.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Utility\Gizmo.cpp">
+      <Filter>Editor\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Utility\IconProvider.cpp">
+      <Filter>Editor\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Tool\Tool_Script.cpp">
+      <Filter>Editor\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ImGui\TextEditor.cpp">
+      <Filter>Editor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\Engine.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\Scripting.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scripting\ScriptInterface.cpp">
+      <Filter>Framework\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Tool\Tool_Sprite.cpp">
+      <Filter>Editor\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scripting\ScriptModule.cpp">
+      <Filter>Framework\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scripting\ScriptInstance.cpp">
+      <Filter>Framework\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene\Component\Script.cpp">
+      <Filter>Framework\Scene\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Widget\Widget_ToolBar.cpp">
+      <Filter>Editor\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Widget\Widget_Project.cpp">
+      <Filter>Editor\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ImGui\Source\imgui_stdlib.cpp">
+      <Filter>Editor\ImGui\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{abd21af6-db02-44f5-ac4d-0425a9c1a16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core">
+      <UniqueIdentifier>{16140bc1-c58b-443f-a182-e1d6005ceae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core\D3D11">
+      <UniqueIdentifier>{77648804-5321-487a-81f9-2c0572833841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core\Subsystem">
+      <UniqueIdentifier>{dfcc8aea-5d4e-4836-a685-960d4c46c530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Scene">
+      <UniqueIdentifier>{c38b1ccf-f248-40d8-83d2-c40a62407e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Resource">
+      <UniqueIdentifier>{9ba11953-0f0e-41dd-aa1d-f55e606af063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Math">
+      <UniqueIdentifier>{f23b41fa-ac1e-47c0-befc-93f0ff7c578e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Utility">
+      <UniqueIdentifier>{3a0311bd-bc7e-45f7-9dab-7220ee3144f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{981eafca-14c9-4655-8c21-7666118ea34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\ImGui">
+      <UniqueIdentifier>{88021d9d-84ef-4ea6-b87b-d90559920c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\ImGui\Source">
+      <UniqueIdentifier>{b9e39a8b-5e4b-4873-bf2a-790dfa9727f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Widget">
+      <UniqueIdentifier>{d8546ca6-8817-4822-92de-1ed0e8f2d262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Utility">
+      <UniqueIdentifier>{1cbdf19c-cd31-40af-830d-4d5e54b14ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core\D3D11\IAStage">
+      <UniqueIdentifier>{dc1d6ea7-be32-4740-9cbe-0129c344542e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core\D3D11\ShaderStage">
+      <UniqueIdentifier>{15262a14-1547-426d-a1b4-0c1f2b53b9a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core\D3D11\RSStage">
+      <UniqueIdentifier>{76497e3b-76d9-4745-a9cc-99d0b6f77bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core\D3D11\OMStage">
+      <UniqueIdentifier>{91fd0524-11d4-4933-ad13-c7c8fe590be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Scene\Component">
+      <UniqueIdentifier>{df89e022-e1f9-421b-b768-104b78a7fd02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Tool">
+      <UniqueIdentifier>{25524a9e-293b-418d-93b3-e8641fb6c268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Scripting">
+      <UniqueIdentifier>{ace04ddf-dfb3-4d13-9455-13c226548b21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpriteAnimation AnimationName="" RepeatType="0">
+    <Keyframe TexturePath="../_Assets/Texture/tree.png" OffsetX="-597.47437" OffsetY="-300" SizeX="246.02129" SizeY="127.778" Time="100"/>
+    <Keyframe TexturePath="../_Assets/Texture/tree.png" OffsetX="-279.7771" OffsetY="-300" SizeX="246.021" SizeY="127.778" Time="100"/>
+    <Keyframe TexturePath="../_Assets/Texture/tree.png" OffsetX="49.110809" OffsetY="-300" SizeX="246.021" SizeY="127.778" Time="100"/>
+    <Keyframe TexturePath="../_Assets/Texture/tree.png" OffsetX="696.08844" OffsetY="-300" SizeX="246.021" SizeY="127.778" Time="100"/>
+    <Keyframe TexturePath="../_Assets/Texture/tree.png" OffsetX="375.03784" OffsetY="-300" SizeX="246.021" SizeY="126.67204" Time="100"/>
+    <Keyframe TexturePath="../_Assets/Texture/tree.png" OffsetX="-580.5835" OffsetY="-212.17403" SizeX="50" SizeY="50" Time="100"/>
+</SpriteAnimation>
